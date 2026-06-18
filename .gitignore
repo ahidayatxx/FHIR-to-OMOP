@@ -1,0 +1,24 @@
+# Local Gemini/Claude CLI configurations
+CLAUDE.md
+.agents/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Generated databases and heavy clinical simulation data
+step_2_fhir_to_omop/data/omop_cdm.db
+step_1_fhir_creation/data/fhir/
+step_1_fhir_creation/output/
+step_4_clinical_scenarios/feasibility_report.txt
+step_4_clinical_scenarios/recruitment_list.txt
